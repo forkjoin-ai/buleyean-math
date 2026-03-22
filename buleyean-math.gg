@@ -1,11 +1,14 @@
 // buleyean-math.gg -- the mathematical kernel of gnosis
 //
-// This topology IS the library. The nodes are modules.
-// The edges are dependencies. The compiler reads this file
-// to determine build order, proof obligations, and the
-// Gnostic number system that gnosis uses as its constants.
+// One formula. Five symbols. Everything.
+//   w_i = R - min(v_i, R) + 1
 //
-// Five primitives. Ten bosons. Nine named numbers.
+// This topology IS the library. The nodes are modules.
+// The edges are dependencies. The God Formula flows through
+// every layer: from the five primitives through the number
+// system, the bosons, confinement, and the gap structure.
+//
+// Seven Laws. Five primitives. Ten bosons. Nine named numbers.
 // The math is the language. The language is the math.
 
 // ═══════════════════════════════════════════════════════════════════════════════
