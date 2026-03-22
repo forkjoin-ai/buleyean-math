@@ -1,0 +1,10 @@
+name = "BuleyeanMath"
+version = "0.1.0"
+defaultTargets = ["buleyeanmath"]
+
+[[lean_lib]]
+name = "BuleyeanMath"
+
+[[lean_exe]]
+name = "buleyeanmath"
+root = "Main"
