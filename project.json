@@ -1,0 +1,66 @@
+{
+  "name": "open-source-buleyean-math",
+  "projectType": "library",
+  "tags": [
+    "scope:open-source",
+    "type:lib"
+  ],
+  "targets": {
+    "build": {
+      "executor": "a0:run-commands",
+      "options": {
+        "command": "node scripts/open-source-repo-target.mjs build open-source/buleyean-math",
+        "cwd": "."
+      }
+    },
+    "lint": {
+      "executor": "a0:run-commands",
+      "options": {
+        "command": "node scripts/open-source-repo-target.mjs lint open-source/buleyean-math",
+        "cwd": "."
+      }
+    },
+    "test": {
+      "executor": "a0:run-commands",
+      "options": {
+        "command": "node scripts/open-source-repo-target.mjs test open-source/buleyean-math",
+        "cwd": "."
+      }
+    },
+    "typecheck": {
+      "executor": "a0:run-commands",
+      "options": {
+        "command": "node scripts/open-source-repo-target.mjs typecheck open-source/buleyean-math",
+        "cwd": "."
+      }
+    },
+    "github:push": {
+      "executor": "a0:run-commands",
+      "options": {
+        "command": "node scripts/open-source-repo-target.mjs github-push open-source/buleyean-math",
+        "cwd": "."
+      }
+    },
+    "forge:push": {
+      "executor": "a0:run-commands",
+      "options": {
+        "command": "node scripts/open-source-repo-target.mjs forge-push open-source/buleyean-math",
+        "cwd": "."
+      }
+    },
+    "push": {
+      "executor": "a0:run-commands",
+      "options": {
+        "command": "node scripts/open-source-repo-target.mjs push open-source/buleyean-math",
+        "cwd": "."
+      }
+    },
+    "submodule:update-reference": {
+      "executor": "a0:run-commands",
+      "options": {
+        "command": "node scripts/open-source-repo-target.mjs submodule-update-reference open-source/buleyean-math",
+        "cwd": "."
+      }
+    }
+  }
+}
