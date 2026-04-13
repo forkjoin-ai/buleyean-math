@@ -3,7 +3,7 @@
 // One formula. Five symbols. Everything.
 //   w_i = R - min(v_i, R) + 1
 //
-// This topology IS the library. The nodes are modules.
+// This topology maps to the library. The nodes are modules.
 // The edges are dependencies. The God Formula flows through
 // every layer: from the five primitives through the number
 // system, the bosons, confinement, and the gap structure.
@@ -118,7 +118,7 @@
 (universal_confinement { theorem: 'confinement_universal: fullEnergy K < missingEnergy K for all K' })
 
 // ═══════════════════════════════════════════════════════════════════════════════
-// Layer 5: The Gap Structure (void between numbers IS the sequence)
+// Layer 5: The Gap Structure (void between numbers maps to the sequence)
 // ═══════════════════════════════════════════════════════════════════════════════
 
 (universal_confinement)-[:FORK]->(gaps)
